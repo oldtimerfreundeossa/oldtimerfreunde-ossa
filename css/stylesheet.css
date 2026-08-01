@@ -1324,9 +1324,9 @@ footer::before {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(var(--color-red-dark) -3deg 8deg, transparent 8deg 16deg);
+    background: repeating-conic-gradient(var(--color-red-dark) -1deg 8deg, transparent 8deg 16deg);
 
-    opacity: 0.3;
+    opacity: 0.2;
 }
 
 footer::after {
@@ -1336,8 +1336,8 @@ footer::after {
     top: -161px;
     right: -130px;
 
-    width: 360px;
-    height: 360px;
+    width: 350px;
+    height: 350px;
 
     border-radius: 50%;
 
@@ -1619,7 +1619,7 @@ footer p {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(rgba(255, 255, 255, 0.14) 0deg 8deg, transparent 8deg 16deg);
+    background: repeating-conic-gradient(rgba(255, 255, 255, 0.14) -2deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
@@ -2650,15 +2650,15 @@ body.lightbox-open {
     content: "";
 
     position: absolute;
-    right: -45px;
-    bottom: -55px;
+    right: -42px;
+    bottom: -44px;
 
     width: 120px;
     height: 120px;
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(rgba(156, 51, 43, 0.1) 0deg 8deg, transparent 8deg 16deg);
+    background: repeating-conic-gradient(rgba(156, 51, 43, 0.1) -1deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
@@ -2742,28 +2742,6 @@ body.lightbox-open {
     box-shadow: 12px 12px 0 var(--color-red-dark);
 
     text-align: center;
-}
-
-.private-sponsor-panel::before {
-    content: "✦";
-
-    position: absolute;
-    top: 15px;
-    left: 25px;
-
-    color: var(--color-red);
-    font-size: 2.2rem;
-}
-
-.private-sponsor-panel::after {
-    content: "✦";
-
-    position: absolute;
-    right: 25px;
-    bottom: 12px;
-
-    color: var(--color-red-dark);
-    font-size: 2.2rem;
 }
 
 .private-sponsor-panel h3 {
@@ -2871,8 +2849,8 @@ body.lightbox-open {
     content: "";
 
     position: absolute;
-    top: -135px;
-    right: -105px;
+    top: -124px;
+    right: -120px;
 
     width: 300px;
     height: 300px;
@@ -3004,15 +2982,15 @@ body.lightbox-open {
     content: "";
 
     position: absolute;
-    right: -100px;
-    bottom: -130px;
+    right: -111px;
+    bottom: -113px;
 
     width: 260px;
     height: 260px;
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(rgba(156, 51, 43, 0.11) 0deg 8deg, transparent 8deg 16deg);
+    background: repeating-conic-gradient(rgba(156, 51, 43, 0.11) -2deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
@@ -3321,15 +3299,15 @@ body.lightbox-open {
     content: "";
 
     position: absolute;
-    right: -65px;
-    bottom: -75px;
+    right: -60px;
+    bottom: -65px;
 
     width: 165px;
     height: 165px;
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(rgba(156, 51, 43, 0.1) 0deg 8deg, transparent 8deg 16deg);
+    background: repeating-conic-gradient(rgba(156, 51, 43, 0.1) -2deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
