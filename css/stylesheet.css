@@ -15,7 +15,6 @@
     --font-display: "Baloo 2", sans-serif;
 }
 
-
 /* ================================================= */
 /* RESET */
 /* ================================================= */
@@ -41,22 +40,13 @@ body {
        Weniger, kleinere und dunklere Strahlenverzierungen
        über die Seite verteilt.
     */
-    background-image:
-        repeating-conic-gradient(
+    background-image: repeating-conic-gradient(
             from 10deg at 8% 18%,
             rgba(156, 51, 43, 0.05) 0deg 8deg,
             transparent 8deg 16deg
         ),
-        repeating-conic-gradient(
-            from -8deg at 92% 38%,
-            rgba(156, 51, 43, 0.045) 0deg 8deg,
-            transparent 8deg 16deg
-        ),
-        repeating-conic-gradient(
-            from 5deg at 50% 84%,
-            rgba(156, 51, 43, 0.04) 0deg 8deg,
-            transparent 8deg 16deg
-        );
+        repeating-conic-gradient(from -8deg at 92% 38%, rgba(156, 51, 43, 0.045) 0deg 8deg, transparent 8deg 16deg),
+        repeating-conic-gradient(from 5deg at 50% 84%, rgba(156, 51, 43, 0.04) 0deg 8deg, transparent 8deg 16deg);
 
     background-size:
         420px 420px,
@@ -127,7 +117,6 @@ header {
     font-weight: 700;
     line-height: 1.2;
 }
-
 
 /* ================================================= */
 /* NAVIGATION */
@@ -285,7 +274,6 @@ nav a.active {
     transform: rotate(var(--hero-angle));
 }
 
-
 /* ================================================= */
 /* HERO-DEKORATION */
 /* ================================================= */
@@ -303,10 +291,7 @@ nav a.active {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(156, 51, 43, 0.13) 1deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(rgba(156, 51, 43, 0.13) 1deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
@@ -324,14 +309,10 @@ nav a.active {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(156, 51, 43, 0.13) 1deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(rgba(156, 51, 43, 0.13) 1deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
-
 
 /* Sterne und Eintritt-frei-Symbol ausblenden */
 
@@ -397,11 +378,7 @@ nav a.active {
     width: 100%;
     height: 8px;
 
-    background: linear-gradient(
-        90deg,
-        var(--color-red-dark),
-        var(--color-red)
-    );
+    background: linear-gradient(90deg, var(--color-red-dark), var(--color-red));
 }
 
 /* Icon-Kreis */
@@ -483,7 +460,6 @@ nav a.active {
     line-height: 1.5;
 }
 
-
 /* ================================================= */
 /* INFO-KACHELN RESPONSIVE */
 /* ================================================= */
@@ -564,10 +540,7 @@ nav a.active {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(255, 255, 255, 0.1) 0deg 8deg,
-        transparent 7deg 15deg
-    );
+    background: repeating-conic-gradient(rgba(255, 255, 255, 0.1) 0deg 8deg, transparent 7deg 15deg);
 
     pointer-events: none;
 }
@@ -696,14 +669,7 @@ nav a.active {
     margin: 70px auto;
     padding: 45px 55px 40px;
 
-    background:
-        linear-gradient(
-            135deg,
-            white 0%,
-            white 85%,
-            rgba(225, 91, 77, 0.08) 85%,
-            rgba(225, 91, 77, 0.08) 100%
-        );
+    background: linear-gradient(135deg, white 0%, white 85%, rgba(225, 91, 77, 0.08) 85%, rgba(225, 91, 77, 0.08) 100%);
 
     border: 4px solid var(--color-red-dark);
     border-radius: 28px;
@@ -723,17 +689,12 @@ nav a.active {
     width: 100%;
     height: 10px;
 
-    background: repeating-linear-gradient(
-        131deg,
-        var(--color-red-dark) 0 22px,
-        var(--color-red) 22px 45px
-    );
+    background: repeating-linear-gradient(131deg, var(--color-red-dark) 0 22px, var(--color-red) 22px 45px);
 }
 
 /* Dezente Jahreszahl auf der rechten Seite */
 
 .welcome::after {
-
     position: absolute;
     top: 50%;
     right: 35px;
@@ -791,7 +752,6 @@ nav a.active {
     text-align: center;
 }
 
-
 /* ================================================= */
 /* ABSCHNITTSÜBERSCHRIFTEN */
 /* ================================================= */
@@ -821,10 +781,7 @@ nav a.active {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        var(--color-red-dark) 0deg 8deg,
-        transparent 8deg 18deg
-    );
+    background: repeating-conic-gradient(var(--color-red-dark) 0deg 8deg, transparent 8deg 18deg);
 
     opacity: 0.22;
 
@@ -841,7 +798,6 @@ nav a.active {
     color: var(--color-red-dark);
     font-size: 1.8rem;
 }
-
 
 /* ================================================= */
 /* FAHRZEUGE */
@@ -933,7 +889,6 @@ nav a.active {
     line-height: 1.6;
 }
 
-
 /* ================================================= */
 /* ABLAUF */
 /* ================================================= */
@@ -1014,7 +969,6 @@ nav a.active {
     line-height: 1.7;
 }
 
-
 /* ================================================= */
 /* GALERIE-TEASER */
 /* ================================================= */
@@ -1060,7 +1014,6 @@ nav a.active {
 .teaser-grid a:hover img {
     transform: scale(1.08);
 }
-
 
 /* ================================================= */
 /* BUTTONS */
@@ -1123,7 +1076,6 @@ nav a.active {
     box-shadow: var(--shadow);
 }
 
-
 /* Sonnenstrahl links unten */
 
 .social-media::before {
@@ -1138,14 +1090,10 @@ nav a.active {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(255, 255, 255, 0.16) 0deg 8deg,
-        transparent 8deg 18deg
-    );
+    background: repeating-conic-gradient(rgba(255, 255, 255, 0.16) 0deg 8deg, transparent 8deg 18deg);
 
     pointer-events: none;
 }
-
 
 /* Sonnenstrahl rechts oben */
 
@@ -1161,14 +1109,10 @@ nav a.active {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(255, 255, 255, 0.16) 0deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(rgba(255, 255, 255, 0.16) 0deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
-
 
 .social-media > h2 {
     position: relative;
@@ -1182,7 +1126,6 @@ nav a.active {
     font-size: clamp(2rem, 3vw, 2.4rem);
 }
 
-
 .social-media > p {
     position: relative;
     z-index: 2;
@@ -1195,7 +1138,6 @@ nav a.active {
     font-size: 1.05rem;
     line-height: 1.7;
 }
-
 
 /* ================================================= */
 /* SOCIAL-MEDIA-KARTEN */
@@ -1213,7 +1155,6 @@ nav a.active {
     max-width: 760px;
     margin: 30px auto 0;
 }
-
 
 .social-card {
     display: flex;
@@ -1240,7 +1181,6 @@ nav a.active {
         box-shadow 0.3s;
 }
 
-
 .social-card:hover {
     background: white;
     border-color: var(--color-pink);
@@ -1249,7 +1189,6 @@ nav a.active {
 
     transform: translateY(-5px);
 }
-
 
 .social-icon {
     flex: 0 0 54px;
@@ -1272,11 +1211,9 @@ nav a.active {
     line-height: 1;
 }
 
-
 .facebook-icon {
     padding-top: 5px;
 }
-
 
 .instagram-icon svg {
     display: block;
@@ -1291,12 +1228,10 @@ nav a.active {
     stroke-linejoin: round;
 }
 
-
 .instagram-icon .instagram-dot {
     fill: currentColor;
     stroke: none;
 }
-
 
 .social-text {
     display: flex;
@@ -1306,7 +1241,6 @@ nav a.active {
     min-width: 0;
 }
 
-
 .social-text strong {
     color: var(--color-red-dark);
 
@@ -1314,7 +1248,6 @@ nav a.active {
     font-size: 1.3rem;
     line-height: 1.2;
 }
-
 
 .social-text small {
     margin-top: 4px;
@@ -1324,7 +1257,6 @@ nav a.active {
     font-size: 0.88rem;
     line-height: 1.35;
 }
-
 
 /* ================================================= */
 /* SOCIAL MEDIA RESPONSIVE */
@@ -1392,10 +1324,7 @@ footer::before {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        var(--color-red-dark) -3deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(var(--color-red-dark) -3deg 8deg, transparent 8deg 16deg);
 
     opacity: 0.3;
 }
@@ -1412,10 +1341,7 @@ footer::after {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        var(--color-red-dark) 0deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(var(--color-red-dark) 0deg 8deg, transparent 8deg 16deg);
 
     opacity: 0.2;
 }
@@ -1426,7 +1352,6 @@ footer p {
 
     opacity: 0.85;
 }
-
 
 /* ================================================= */
 /* BACK TO TOP */
@@ -1476,7 +1401,6 @@ footer p {
     height: 24px;
 }
 
-
 /* ================================================= */
 /* ANIMATIONEN */
 /* ================================================= */
@@ -1492,7 +1416,6 @@ footer p {
         transform: translateY(0);
     }
 }
-
 
 /* ================================================= */
 /* UNTERSEITEN */
@@ -1529,7 +1452,6 @@ footer p {
 .content section {
     margin-bottom: 60px;
 }
-
 
 /* ================================================= */
 /* SPONSOREN UND ALLGEMEINE KARTEN */
@@ -1681,11 +1603,7 @@ footer p {
     width: 100%;
     height: 16px;
 
-    background: repeating-linear-gradient(
-        -45deg,
-        var(--color-cream) 0 16px,
-        var(--color-red) 16px 32px
-    );
+    background: repeating-linear-gradient(-45deg, var(--color-cream) 0 16px, var(--color-red) 16px 32px);
 }
 
 /* Unteres Deko-Element rechts */
@@ -1701,10 +1619,7 @@ footer p {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(255, 255, 255, 0.14) 0deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(rgba(255, 255, 255, 0.14) 0deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
@@ -1823,7 +1738,6 @@ footer p {
     object-fit: contain;
 }
 
-
 /* ================================================= */
 /* RESPONSIVE BIS 1200 PX */
 /* ================================================= */
@@ -1871,7 +1785,6 @@ footer p {
         height: 240px;
     }
 }
-
 
 /* ================================================= */
 /* RESPONSIVE BIS 800 PX */
@@ -2120,7 +2033,6 @@ body {
     line-height: 1.8;
 }
 
-
 /* ================================================= */
 /* WICHTIGE INFORMATIONEN */
 /* ================================================= */
@@ -2142,7 +2054,6 @@ body {
     margin-top: auto;
     padding-top: 15px;
 }
-
 
 /* ================================================= */
 /* RESPONSIVE */
@@ -2199,7 +2110,6 @@ body {
     font-size: 1.05rem;
     line-height: 1.8;
 }
-
 
 /* ================================================= */
 /* GALERIE-Raster */
@@ -2300,7 +2210,6 @@ body {
     transform: rotate(8deg) scale(1.08);
 }
 
-
 /* ================================================= */
 /* GALERIE-AUFRUF */
 /* ================================================= */
@@ -2335,10 +2244,7 @@ body {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(255, 255, 255, 0.15) 0deg 8deg,
-        transparent 8deg 18deg
-    );
+    background: repeating-conic-gradient(rgba(255, 255, 255, 0.15) 0deg 8deg, transparent 8deg 18deg);
 
     pointer-events: none;
 }
@@ -2369,7 +2275,6 @@ body {
 .gallery-cta .button {
     margin-bottom: 0;
 }
-
 
 /* ================================================= */
 /* GALERIE RESPONSIVE */
@@ -2439,7 +2344,6 @@ body.lightbox-open {
     pointer-events: auto;
 }
 
-
 /* ================================================= */
 /* LIGHTBOX-INHALT */
 /* ================================================= */
@@ -2497,7 +2401,6 @@ body.lightbox-open {
     text-align: center;
 }
 
-
 /* ================================================= */
 /* LIGHTBOX-BUTTONS */
 /* ================================================= */
@@ -2543,7 +2446,6 @@ body.lightbox-open {
     outline-offset: 6px;
 }
 
-
 /* Schliessen */
 
 .lightbox-close {
@@ -2557,7 +2459,6 @@ body.lightbox-open {
 
     font-size: 2.5rem;
 }
-
 
 /* Navigation */
 
@@ -2583,7 +2484,6 @@ body.lightbox-open {
 .lightbox-next {
     right: 28px;
 }
-
 
 /* ================================================= */
 /* GALERIE-HINWEIS BEIM HOVER */
@@ -2619,7 +2519,6 @@ body.lightbox-open {
     opacity: 1;
     transform: translate(-50%, 0);
 }
-
 
 /* ================================================= */
 /* LIGHTBOX RESPONSIVE */
@@ -2701,7 +2600,6 @@ body.lightbox-open {
     text-align: center;
 }
 
-
 /* ================================================= */
 /* FIRMENSPONSOREN */
 /* ================================================= */
@@ -2760,10 +2658,7 @@ body.lightbox-open {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(156, 51, 43, 0.1) 0deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(rgba(156, 51, 43, 0.1) 0deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
@@ -2824,7 +2719,6 @@ body.lightbox-open {
     font-size: 0.95rem;
     font-weight: 600;
 }
-
 
 /* ================================================= */
 /* PRIVATE UNTERSTÜTZER */
@@ -2985,10 +2879,7 @@ body.lightbox-open {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(255, 255, 255, 0.16) 0deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(rgba(255, 255, 255, 0.16) 0deg 8deg, transparent 8deg 16deg);
 }
 
 .sponsor-cta-content {
@@ -3035,7 +2926,6 @@ body.lightbox-open {
 .sponsor-cta .button a:hover {
     background: white;
 }
-
 
 /* ================================================= */
 /* SPONSOREN RESPONSIVE */
@@ -3122,10 +3012,7 @@ body.lightbox-open {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(156, 51, 43, 0.11) 0deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(rgba(156, 51, 43, 0.11) 0deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
@@ -3218,7 +3105,6 @@ body.lightbox-open {
     margin-top: 28px;
     margin-bottom: 0;
 }
-
 
 /* ================================================= */
 /* KONTAKTTHEMEN */
@@ -3322,7 +3208,6 @@ body.lightbox-open {
 
     line-height: 1.7;
 }
-
 
 /* ================================================= */
 /* KONTAKT RESPONSIVE */
@@ -3444,10 +3329,7 @@ body.lightbox-open {
 
     border-radius: 50%;
 
-    background: repeating-conic-gradient(
-        rgba(156, 51, 43, 0.1) 0deg 8deg,
-        transparent 8deg 16deg
-    );
+    background: repeating-conic-gradient(rgba(156, 51, 43, 0.1) 0deg 8deg, transparent 8deg 16deg);
 
     pointer-events: none;
 }
@@ -3553,7 +3435,6 @@ body.lightbox-open {
 
     transform: translateY(-3px);
 }
-
 
 /* ================================================= */
 /* DOKUMENTENHINWEIS */
@@ -3692,7 +3573,6 @@ body.lightbox-open {
 /* ================================================= */
 
 @media (max-width: 600px) {
-
     /* Hero wieder bis direkt unter den Header ziehen */
     main > .hero {
         width: calc(100% + 30px);
@@ -3835,7 +3715,6 @@ body.lightbox-open {
         var(--shadow);
 }
 
-
 /* Google-Maps-Karte */
 
 .location-map-card iframe {
@@ -3853,7 +3732,6 @@ body.lightbox-open {
     pointer-events: none;
 }
 
-
 /* Klickbare Fläche über der Karte */
 
 .location-map-link {
@@ -3869,7 +3747,6 @@ body.lightbox-open {
 
     cursor: pointer;
 }
-
 
 /* Beschriftung auf der Karte */
 
@@ -3903,7 +3780,6 @@ body.lightbox-open {
     transform: translateY(-5px);
 }
 
-
 /* Standort-Symbol */
 
 .location-map-icon {
@@ -3920,7 +3796,6 @@ body.lightbox-open {
 
     font-size: 1.7rem;
 }
-
 
 /* Standort-Text */
 
@@ -3950,7 +3825,6 @@ body.lightbox-open {
     opacity: 0.9;
 }
 
-
 /* Pfeil rechts */
 
 .location-map-arrow {
@@ -3966,14 +3840,12 @@ body.lightbox-open {
     transform: translate(3px, -3px);
 }
 
-
 /* Tastaturbedienung */
 
 .location-map-link:focus-visible {
     outline: 5px solid var(--color-pink);
     outline-offset: 6px;
 }
-
 
 /* ================================================= */
 /* STANDORTKARTE – HANDYANSICHT */
@@ -4037,7 +3909,6 @@ body.lightbox-open {
 /* ================================================= */
 
 @media (max-width: 800px) {
-
     /* Header etwas höher machen */
     header {
         height: 125px;
@@ -4089,13 +3960,11 @@ body.lightbox-open {
     }
 }
 
-
 /* ================================================= */
 /* KLEINE UNTERTITEL AUF EINER ZEILE */
 /* ================================================= */
 
 @media (max-width: 600px) {
-
     .page-header .page-subtitle,
     .countdown .countdown-label,
     .sponsor-cta .sponsor-cta-label {
