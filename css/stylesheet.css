@@ -85,13 +85,14 @@ a {
     --tablet-gutter: clamp(20px, 3.5vw, 40px);
 }
 
-@media (min-width: 601px) and (max-width: 1024px) {
+@media (min-width: 601px) and (max-width: 1300px) {
     body {
         padding-left: var(--tablet-gutter);
         padding-right: var(--tablet-gutter);
     }
 
-    header {
+    header,
+    footer {
         margin-left: calc(var(--tablet-gutter) * -1);
         margin-right: calc(var(--tablet-gutter) * -1);
     }
@@ -1816,19 +1817,6 @@ footer p {
 /* ================================================= */
 
 @media (max-width: 1024px) {
-    header {
-        height: 85px;
-    }
-
-    .brand {
-        display: none;
-    }
-
-    .brand-logo {
-        width: 68px;
-        height: 68px;
-    }
-
     .nav-toggle-label {
         display: block;
 
@@ -1840,7 +1828,7 @@ footer p {
 
     nav {
         position: absolute;
-        top: 85px;
+        top: 105px;
         left: 0;
 
         display: none;
@@ -1859,9 +1847,76 @@ footer p {
         display: flex;
     }
 
+    .info-box {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+        max-width: 680px;
+        margin-top: 25px;
+    }
+
+    .welcome {
+        padding: 30px;
+    }
+
+    .card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        padding: 28px 22px;
+    }
+
+    .card h2 {
+        font-size: 1.7rem;
+    }
+
+    .page-header h1 {
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 650px) {
+    header {
+        height: 125px;
+        padding: 0 15px;
+    }
+
+    .header-left {
+        gap: 11px;
+        min-width: 0;
+    }
+
+    .brand-logo {
+        flex-shrink: 0;
+
+        width: 90px;
+        height: 90px;
+    }
+
+    .brand {
+        display: block;
+
+        color: var(--color-cream);
+
+        font-size: clamp(0.78rem, 2.6vw, 0.84rem);
+        font-weight: 700;
+        line-height: 1.2;
+    }
+
+    .nav-toggle-label {
+        flex-shrink: 0;
+
+        font-size: 2.15rem;
+        line-height: 1;
+    }
+
+    nav {
+        top: 125px;
+    }
+
     .hero {
-        min-height: calc(100vh - 85px);
-        min-height: calc(100svh - 85px);
+        min-height: calc(100vh - 125px);
+        min-height: calc(100svh - 125px);
 
         padding: 30px 18px 35px;
     }
@@ -1907,33 +1962,6 @@ footer p {
 
         width: 175px;
         height: 175px;
-    }
-
-    .info-box {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-
-        max-width: 680px;
-        margin-top: 25px;
-    }
-
-    .welcome {
-        padding: 30px;
-    }
-
-    .card-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .card {
-        padding: 28px 22px;
-    }
-
-    .card h2 {
-        font-size: 1.7rem;
-    }
-
-    .page-header h1 {
-        font-size: 2.7rem;
     }
 }
 
@@ -3911,57 +3939,7 @@ body.lightbox-open {
 /* MOBILE HEADER UND KLEINE UNTERTITEL */
 /* ================================================= */
 
-@media (max-width: 1024px) {
-    /* Header etwas höher machen */
-    header {
-        height: 125px;
-        padding: 0 15px;
-    }
-
-    .header-left {
-        gap: 11px;
-        min-width: 0;
-    }
-
-    /* Logo etwas grösser */
-    .brand-logo {
-        flex-shrink: 0;
-
-        width: 90px;
-        height: 90px;
-    }
-
-    /* Vereinsname neben dem Logo wieder anzeigen */
-    .brand {
-        display: block;
-
-        color: var(--color-cream);
-
-        font-size: clamp(0.9rem, 2.6vw, 0.84rem);
-        font-weight: 700;
-        line-height: 1.2;
-        white-space: nowrap;
-    }
-
-    /* Hamburger-Menü */
-    .nav-toggle-label {
-        flex-shrink: 0;
-
-        font-size: 2.15rem;
-        line-height: 1;
-    }
-
-    /* Menü muss unter dem höheren Header beginnen */
-    nav {
-        top: 98px;
-    }
-
-    /* Höhe des Startbereichs anpassen */
-    .hero {
-        min-height: calc(100vh - 98px);
-        min-height: calc(100svh - 98px);
-    }
-}
+/* Header/Logo/Hero-Grössenanpassung jetzt im 650px-Block weiter oben */
 
 /* ================================================= */
 /* KLEINE UNTERTITEL AUF EINER ZEILE */
