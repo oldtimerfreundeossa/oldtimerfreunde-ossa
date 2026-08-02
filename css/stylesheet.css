@@ -71,8 +71,33 @@ a {
 }
 
 /* ================================================= */
-/* HEADER */
+/* TABLET-RANDABSTAND (601px – 1024px) */
 /* ================================================= */
+/*
+   Viele Sektionen verlassen sich auf max-width + auto-Margin
+   zur Zentrierung, ohne eigenen Rand-Abstand. Auf Desktop-Breiten
+   greift die max-width, auf Handys gibt es eigene Regeln – dazwischen
+   (z.B. iPad) klebt der Inhalt sonst am Bildschirmrand.
+   Die Kopfzeile bekommt einen negativen Rand, damit sie weiterhin
+   randlos bleibt.
+*/
+:root {
+    --tablet-gutter: clamp(20px, 3.5vw, 40px);
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        padding-left: var(--tablet-gutter);
+        padding-right: var(--tablet-gutter);
+    }
+
+    header {
+        margin-left: calc(var(--tablet-gutter) * -1);
+        margin-right: calc(var(--tablet-gutter) * -1);
+    }
+}
+
+
 
 header {
     position: sticky;
@@ -1790,7 +1815,7 @@ footer p {
 /* RESPONSIVE BIS 800 PX */
 /* ================================================= */
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
     header {
         height: 85px;
     }
@@ -3886,7 +3911,7 @@ body.lightbox-open {
 /* MOBILE HEADER UND KLEINE UNTERTITEL */
 /* ================================================= */
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
     /* Header etwas höher machen */
     header {
         height: 125px;
