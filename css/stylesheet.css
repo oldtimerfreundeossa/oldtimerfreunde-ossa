@@ -2659,8 +2659,12 @@ body.lightbox-open {
 
 .sponsor-company-grid {
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
-    gap: 28px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 14px;
+    box-sizing: border-box
 }
 
 .sponsor-company-card {

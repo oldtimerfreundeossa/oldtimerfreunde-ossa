@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Logo" xmlns="http://www.w3.org/2000/svg" width="175mm" height="175mm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 496.06 496.06">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #009036;
+      }
+
+      .cls-2 {
+        fill: url(#Unbenannter_Verlauf_21);
+      }
+
+      .cls-3 {
+        fill: transparent;
+      }
+
+      .cls-4 {
+        fill: url(#Unbenannter_Verlauf_6);
+      }
+    </style>
+    <linearGradient id="Unbenannter_Verlauf_6" data-name="Unbenannter Verlauf 6" x1="612.57" y1="425.69" x2="612.82" y2="178.75" gradientTransform="translate(-394.65) skewX(4.06)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffed00" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#ffed00"/>
+    </linearGradient>
+    <linearGradient id="Unbenannter_Verlauf_21" data-name="Unbenannter Verlauf 21" x1="690.32" y1="72.32" x2="691.78" y2="188.55" gradientTransform="translate(-416.93) skewX(4.29)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#009036" stop-opacity=".05"/>
+      <stop offset="1" stop-color="#009036"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-3" width="496.06" height="496.06"/>
+  <g>
+    <polygon class="cls-4" points="280.46 419.43 137.9 419.43 198.51 185 341.07 185 280.46 419.43"/>
+    <polygon class="cls-2" points="369.28 75.87 341.07 185 198.51 185 226.47 75.87 369.28 75.87"/>
+    <path class="cls-1" d="M410.79,310.29h34.58v-91.28h-34.58v91.28ZM428.07,211.1c10.15,0,18.39-8.23,18.39-18.39,0-2.75-.61-5.36-1.7-7.71h-33.37c-1.09,2.35-1.7,4.97-1.7,7.71,0,10.15,8.23,18.39,18.37,18.39ZM259.41,216.89c-22.54,0-40.82,18.28-40.82,40.82h0s0,0,0,0v52.58h34.59s0-52.58,0-52.58c0-3.44,2.79-6.23,6.23-6.23s6.23,2.79,6.23,6.23v52.58h34.59s0-52.58,0-52.58h0c0-22.54-18.28-40.82-40.82-40.82ZM84.2,185h-34.59v125.29h63.35v-32.66h-28.71l-.04-92.63ZM366.67,233.9l-8.29-15.82c-1.26-.11-2.54-.16-3.82-.16-25.79,0-46.69,20.91-46.69,46.7s20.91,46.69,46.69,46.69,46.7-20.91,46.7-46.69v-79.62h-34.6v48.89ZM354.56,277.6c-7.16,0-12.97-5.81-12.97-12.97s5.81-12.98,12.97-12.98,12.98,5.81,12.98,12.98-5.81,12.97-12.98,12.97ZM162.33,217.94c-25.78,0-46.69,20.91-46.69,46.7s20.9,46.7,46.69,46.7c.83,0,2.72-.02,3.54-.07l8.57-16.96v15.99h34.59v-45.66c0-25.78-20.9-46.7-46.7-46.7ZM162.33,277.62c-7.17,0-12.98-5.81-12.98-12.98s5.81-12.98,12.98-12.98,12.98,5.81,12.98,12.98-5.81,12.98-12.98,12.98Z"/>
+  </g>
+</svg>
