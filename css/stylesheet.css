@@ -2817,6 +2817,9 @@ body.lightbox-open {
     font-size: 1.05rem;
     line-height: 1.8;
 }
+.private-sponsor-info {
+    margin-top: 40px;
+}
 
 /* ================================================= */
 /* LISTE DER PRIVATEN SPONSOREN */
@@ -2824,13 +2827,11 @@ body.lightbox-open {
 
 .private-sponsor-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 22px;
-
-    width: 100%;
-    max-width: 1050px;
-    margin: 35px auto 0;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  
 }
+
 
 .private-sponsor-name {
     display: flex;
@@ -2996,8 +2997,10 @@ body.lightbox-open {
     }
 }
 
-.private-sponsor-list {
-    grid-template-columns: 1fr;
+@media (max-width: 700px) {
+    .private-sponsor-list {
+        grid-template-columns: 1fr;
+    }
 }
 
 .private-sponsor-name {
