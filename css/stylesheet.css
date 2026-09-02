@@ -2817,9 +2817,6 @@ body.lightbox-open {
     font-size: 1.05rem;
     line-height: 1.8;
 }
-.private-sponsor-info {
-    margin-top: 40px;
-}
 
 /* ================================================= */
 /* LISTE DER PRIVATEN SPONSOREN */
@@ -2859,6 +2856,10 @@ body.lightbox-open {
         transform 0.3s,
         background 0.3s,
         box-shadow 0.3s;
+}
+
+.private-sponsor-info {
+    margin-top: 20px;
 }
 
 .private-sponsor-name:hover {
