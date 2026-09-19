@@ -23,12 +23,7 @@
 
         <meta property="og:locale" content="de_CH" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link rel="canonical" href="https://oldtimerfreunde-ossa.ch/sponsoren/" />
-        <link
-            href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
-            rel="stylesheet" />
 
         <link rel="icon" href="../images/logo.png" type="image/png" />
         <link rel="stylesheet" href="../css/stylesheet.css" />
@@ -60,21 +55,40 @@
             <label for="nav-toggle" class="nav-toggle-label"> ☰ </label>
 
             <nav aria-label="Hauptnavigation">
-                <a href="/"> Start </a>
 
-                <a href="/informationen/"> Informationen </a>
+                <a href="../index.html">
+                    Start
+                </a>
 
-                <a href="/galerie/"> Galerie </a>
+                <a href="../informationen/index.html">
+                    Informationen
+                </a>
 
-                <a href="/sponsoren/" class="active" aria-current="page"> Sponsoren </a>
+                <a href="../galerie/index.html">
+                    Galerie
+                </a>
 
-                <a href="/dokumente/"> Dokumente </a>
+                <a
+                    href="../sponsoren/index.html"
+                    class="active"
+                    aria-current="page"
+                >
+                    Sponsoren
+                </a>
 
-                <a href="/kontakt/"> Kontakt </a>
+                <a href="../dokumente/index.html">
+                    Dokumente
+                </a>
+
+                <a href="../kontakt/index.html">
+                    Kontakt
+                </a>
+
             </nav>
         </header>
 
         <main>
+            
             <!-- ================================================= -->
             <!-- SEITENTITEL -->
             <!-- ================================================= -->
@@ -330,6 +344,36 @@
                             <span class="sponsor-website-hint"> Webseite besuchen ↗ </span>
                         </div>
                     </a>
+                    
+                    <!-- ================================================= -->
+                    <!-- GARAGE HANS GUGGISBERG -->
+                    <!-- ================================================= -->
+
+                    <article class="sponsor-company-card">
+
+                        <div class="sponsor-logo-frame">
+                            <img
+                                src="../images/Sponsoren/garagehansguggisberg.png"
+                                alt="Logo Garage Hans Guggisberg Boltigen"
+                                loading="lazy"
+                            />
+                        </div>
+
+                        <div class="sponsor-company-content">
+
+                            <h3>
+                                Garage Hans Guggisberg
+                            </h3>
+                            
+                            <p class="sponsor-contact-name">Hans Guggisberg</p>
+
+                            <p class="sponsor-role">
+                                Sponsor
+                            </p>
+
+                        </div>
+
+                    </article>
                 </div>
             </section>
 
@@ -350,11 +394,6 @@
                     <div class="private-sponsor-list">
                         <div class="private-sponsor-name">
                             <strong>Elsbeth Guggisberg</strong>
-                            <span>Boltigen</span>
-                        </div>
-
-                        <div class="private-sponsor-name">
-                            <strong>Hans Guggisberg</strong>
                             <span>Boltigen</span>
                         </div>
                         
@@ -404,22 +443,59 @@
         <!-- ================================================= -->
 
         <footer>
+
             <div class="button">
+
                 <a
                     href="https://www.facebook.com/share/1Cvqb2ysq7/?mibextid=wwXIfr"
                     target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer"
+                >
                     Facebook
                 </a>
 
-                <a href="https://www.instagram.com/oldtimerfreundeossa/" target="_blank" rel="noopener noreferrer">
+                <a
+                    href="https://www.instagram.com/oldtimerfreundeossa/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     Instagram
                 </a>
 
-                <a href="mailto:oldtimerfreunde.ossa@gmail.com"> E-Mail </a>
+                <a href="mailto:oldtimerfreunde.ossa@gmail.com">
+                    E-Mail
+                </a>
+
             </div>
 
-            <p>© 2026 IG Oldtimerfreunde Obersimmental-Saanenland</p>
+
+            <!-- RECHTLICHE LINKS -->
+
+            <div class="legal-links">
+
+                <a href="../impressum/index.html">
+                    Impressum
+                </a>
+
+                <a href="../datenschutz/index.html">
+                    Datenschutz
+                </a>
+
+                <button
+                    type="button"
+                    class="privacy-settings-button"
+                    data-consent-settings
+                >
+                    Datenschutzeinstellungen
+                </button>
+
+            </div>
+
+
+            <p>
+                © 2026 IG Oldtimerfreunde Obersimmental-Saanenland
+            </p>
+
         </footer>
 
         <!-- ================================================= -->
@@ -439,5 +515,7 @@
         </button>
 
         <script src="../js/header.js"></script>
+        <script src="../js/consent.js"></script>
+        
     </body>
 </html>

@@ -21,13 +21,6 @@
         <meta property="og:type" content="website" />
 
         <meta property="og:locale" content="de_CH" />
-        
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Baloo+2:wght@500;600;700;800&display=swap"
-            rel="stylesheet" />
 
         <link rel="icon" href="../images/logo.png" type="image/png" />
         <link rel="stylesheet" href="../css/stylesheet.css" />
@@ -58,18 +51,36 @@
 
             <label for="nav-toggle" class="nav-toggle-label"> ☰ </label>
 
-            <nav aria-label="Hauptnavigation">
-                <a href="/"> Start </a>
+             <nav aria-label="Hauptnavigation">
 
-                <a href="/informationen/"> Informationen </a>
+                <a href="../index.html">
+                    Start
+                </a>
 
-                <a href="/galerie/" class="active" aria-current="page"> Galerie </a>
+                <a href="../informationen/index.html">
+                    Informationen
+                </a>
 
-                <a href="/sponsoren/"> Sponsoren </a>
+                <a
+                    href="../galerie/index.html"
+                    class="active"
+                    aria-current="page"
+                >
+                    Galerie
+                </a>
 
-                <a href="/dokumente/"> Dokumente </a>
+                <a href="../sponsoren/index.html">
+                    Sponsoren
+                </a>
 
-                <a href="/kontakt/"> Kontakt </a>
+                <a href="../dokumente/index.html">
+                    Dokumente
+                </a>
+
+                <a href="../kontakt/index.html">
+                    Kontakt
+                </a>
+
             </nav>
         </header>
 
@@ -86,7 +97,7 @@
                 </div>
 
                 <p class="page-introduction">
-                    Entdecken Sie einige Impressionen unseres ersten Oldtimertreffens in der Simmentalarena Zweisimmen.
+                    Entdecke einige Impressionen unseres ersten Oldtimertreffens in der Simmentalarena.
                 </p>
             </section>
 
@@ -98,7 +109,7 @@
                 <div class="gallery-intro">
                     <h2>Erinnerungen an das Treffen 2024</h2>
 
-                    <p>Klicken Sie auf ein Bild, um es in der vollständigen Grösse zu öffnen.</p>
+                    <p>Klicke auf ein Bild, um es in der vollständigen Grösse zu öffnen.</p>
                 </div>
 
                 <div class="gallery-grid">
@@ -237,10 +248,16 @@
                 </p>
 
                 <div class="button">
-                    <a href="/"> Zur Startseite </a>
 
-                    <a href="/informationen/"> Informationen zum Treffen </a>
-                </div>
+                    <a href="../index.html">
+                        Zur Startseite
+                    </a>
+
+                    <a href="../informationen/index.html">
+                        Informationen zum Treffen
+                    </a>
+                    
+                </div>  
             </section>
         </main>
 
@@ -249,22 +266,59 @@
         <!-- ================================================= -->
 
         <footer>
+
             <div class="button">
+
                 <a
                     href="https://www.facebook.com/share/1Cvqb2ysq7/?mibextid=wwXIfr"
                     target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer"
+                >
                     Facebook
                 </a>
 
-                <a href="https://www.instagram.com/oldtimerfreundeossa/" target="_blank" rel="noopener noreferrer">
+                <a
+                    href="https://www.instagram.com/oldtimerfreundeossa/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     Instagram
                 </a>
 
-                <a href="mailto:oldtimerfreunde.ossa@gmail.com"> E-Mail </a>
+                <a href="mailto:oldtimerfreunde.ossa@gmail.com">
+                    E-Mail
+                </a>
+
             </div>
 
-            <p>© 2026 IG Oldtimerfreunde Obersimmental-Saanenland</p>
+
+            <!-- RECHTLICHE LINKS -->
+
+            <div class="legal-links">
+
+                <a href="../impressum/index.html">
+                    Impressum
+                </a>
+
+                <a href="../datenschutz/index.html">
+                    Datenschutz
+                </a>
+
+                <button
+                    type="button"
+                    class="privacy-settings-button"
+                    data-consent-settings
+                >
+                    Datenschutzeinstellungen
+                </button>
+
+            </div>
+
+
+            <p>
+                © 2026 IG Oldtimerfreunde Obersimmental-Saanenland
+            </p>
+
         </footer>
 
         <!-- ================================================= -->
@@ -306,7 +360,10 @@
 
             <button type="button" class="lightbox-navigation lightbox-next" aria-label="Nächstes Bild">›</button>
         </div>
+        
         <script src="../js/header.js"></script>
         <script src="../js/lightbox.js"></script>
+        <script src="../js/consent.js"></script>
+        
     </body>
 </html>

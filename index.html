@@ -22,13 +22,6 @@
 
         <meta property="og:locale" content="de_CH" />
 
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
-        <link
-            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Baloo+2:wght@500;600;700;800&display=swap"
-            rel="stylesheet" />
-
         <link rel="icon" href="/images/logo.png" type="image/png" />
         <link rel="stylesheet" href="css/stylesheet.css" />
         <link rel="canonical" href="https://oldtimerfreunde-ossa.ch/" />
@@ -59,17 +52,35 @@
             <label for="nav-toggle" class="nav-toggle-label"> ☰ </label>
 
             <nav aria-label="Hauptnavigation">
-                <a href="/" class="active" aria-current="page"> Start </a>
 
-                <a href="/informationen/"> Informationen </a>
+                <a
+                    href="./index.html"
+                    class="active"
+                    aria-current="page"
+                >
+                    Start
+                </a>
 
-                <a href="/galerie/"> Galerie </a>
+                <a href="./informationen/index.html">
+                    Informationen
+                </a>
 
-                <a href="/sponsoren/"> Sponsoren </a>
+                <a href="./galerie/index.html">
+                    Galerie
+                </a>
 
-                <a href="dokumente/"> Dokumente </a>
+                <a href="./sponsoren/index.html">
+                    Sponsoren
+                </a>
 
-                <a href="/kontakt/"> Kontakt </a>
+                <a href="./dokumente/index.html">
+                    Dokumente
+                </a>
+
+                <a href="./kontakt/index.html">
+                    Kontakt
+                </a>
+
             </nav>
         </header>
 
@@ -206,38 +217,53 @@
             <!-- ================================================= -->
             <!-- STANDORT -->
             <!-- ================================================= -->
-
             <section class="location-section">
                 <h2 class="section-heading">Hier findet das Treffen statt</h2>
 
-                <div class="location-map-card">
-                    <iframe
-                        src="https://www.google.com/maps?q=Simmental%20Arena%2C%20Lenkstrasse%2021c%2C%203770%20Zweisimmen&output=embed"
-                        title="Karte mit Standort der Simmental Arena in Zweisimmen"
-                        loading="lazy"
-                        tabindex="-1"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="location-map-card">
+                <iframe
+                    data-google-maps
+                    data-src="https://www.google.com/maps?q=Simmental%20Arena%2C%20Lenkstrasse%2021c%2C%203770%20Zweisimmen&output=embed"
+                    title="Karte mit Standort der Simmental Arena in Zweisimmen"
+                    loading="lazy"
+                    tabindex="-1"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                    <a
-                        href="https://www.google.com/maps/search/?api=1&query=Simmental%20Arena%2C%20Lenkstrasse%2021c%2C%203770%20Zweisimmen"
-                        class="location-map-link"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label="Standort der Simmental Arena in Google Maps öffnen">
-                        <span class="location-map-label">
-                            <span class="location-map-icon" aria-hidden="true"> 📍 </span>
+                
+                <div class="map-consent-placeholder" data-map-placeholder>
+                    <div class="map-consent-content">
+                        <span class="map-consent-icon" aria-hidden="true"> 📍 </span>
 
-                            <span class="location-map-text">
-                                <strong> Simmental Arena </strong>
+                        <h3>Google Maps</h3>
 
-                                <small> Lenkstrasse 21c, 3770 Zweisimmen </small>
-                            </span>
+                        <p>
+                            Die Karte wird erst geladen, wenn Sie Google Maps erlauben. Dabei können Daten an Google übertragen
+                            werden.
+                        </p>
 
-                            <span class="location-map-arrow" aria-hidden="true"> ↗ </span>
-                        </span>
-                    </a>
+                        <button type="button" class="map-consent-load-button" data-map-accept>Google Maps erlauben</button>
+                    </div>
                 </div>
-            </section>
+
+                <a
+                    href="https://www.google.com/maps/search/?api=1&query=Simmental%20Arena%2C%20Lenkstrasse%2021c%2C%203770%20Zweisimmen"
+                    class="location-map-link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label="Standort der Simmental Arena in Google Maps öffnen">
+                    <span class="location-map-label">
+                        <span class="location-map-icon" aria-hidden="true"> 📍 </span>
+
+                        <span class="location-map-text">
+                            <strong> Simmental Arena </strong>
+
+                            <small> Lenkstrasse 21c, 3770 Zweisimmen </small>
+                        </span>
+
+                        <span class="location-map-arrow" aria-hidden="true"> ↗ </span>
+                    </span>
+                </a>
+            </div>
 
             <!-- ================================================= -->
             <!-- BESUCH -->
@@ -361,22 +387,59 @@
         <!-- ================================================= -->
 
         <footer>
+
             <div class="button">
+
                 <a
                     href="https://www.facebook.com/share/1Cvqb2ysq7/?mibextid=wwXIfr"
                     target="_blank"
-                    rel="noopener noreferrer">
+                    rel="noopener noreferrer"
+                >
                     Facebook
                 </a>
 
-                <a href="https://www.instagram.com/oldtimerfreundeossa/" target="_blank" rel="noopener noreferrer">
+                <a
+                    href="https://www.instagram.com/oldtimerfreundeossa/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     Instagram
                 </a>
 
-                <a href="mailto:oldtimerfreunde.ossa@gmail.com"> E-Mail </a>
+                <a href="mailto:oldtimerfreunde.ossa@gmail.com">
+                    E-Mail
+                </a>
+
             </div>
 
-            <p>© 2026 IG Oldtimerfreunde Obersimmental-Saanenland</p>
+
+            <!-- RECHTLICHE LINKS -->
+
+            <div class="legal-links">
+
+                <a href="./impressum/index.html">
+                    Impressum
+                </a>
+
+                <a href="./datenschutz/index.html">
+                    Datenschutz
+                </a>
+
+                <button
+                    type="button"
+                    class="privacy-settings-button"
+                    data-consent-settings
+                >
+                    Datenschutzeinstellungen
+                </button>
+
+            </div>
+
+
+            <p>
+                © 2026 IG Oldtimerfreunde Obersimmental-Saanenland
+            </p>
+
         </footer>
 
         <!-- ================================================= -->
@@ -397,5 +460,7 @@
 
         <script src="../js/countdown.js"></script>
         <script src="../js/header.js"></script>
+        <script src="./js/consent.js"></script>
+    
     </body>
 </html>
